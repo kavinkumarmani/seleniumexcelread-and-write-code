@@ -8,7 +8,8 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Readalldata {
-
+	
+	int rowcount=0;
 	public static void main(String[] args) throws Exception {
 		
 		File src=new File("C:\\Users\\Saran\\exceldata\\TestData.xlsx");
